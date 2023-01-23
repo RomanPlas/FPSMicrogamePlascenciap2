@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5391986374566301944}
   - component: {fileID: 5391986374566301940}
   m_Layer: 0
-  m_Name: Pickup_Blaster 1
+  m_Name: Pickup_BurstRifle
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,8 @@ MonoBehaviour:
   RotatingSpeed: 360
   PickupSfx: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
   PickupVfxPrefab: {fileID: 0}
-  WeaponPrefab: {fileID: 0}
+  WeaponPrefab: {fileID: 1399043174754806203, guid: 39dbd545f473a5d42b2ec0f012669aca,
+    type: 3}
 --- !u!1 &7696458092355651969
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,11 +111,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6250753183881646144}
+  - {fileID: 4407909318952290936}
   m_Father: {fileID: 5391986374566301942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &8920043880616307735
+--- !u!1001 &1178100779851544111
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -183,9 +184,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39dbd545f473a5d42b2ec0f012669aca, type: 3}
---- !u!4 &6250753183881646144 stripped
+--- !u!4 &4407909318952290936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3275663122607668311, guid: 39dbd545f473a5d42b2ec0f012669aca,
     type: 3}
-  m_PrefabInstance: {fileID: 8920043880616307735}
+  m_PrefabInstance: {fileID: 1178100779851544111}
   m_PrefabAsset: {fileID: 0}
